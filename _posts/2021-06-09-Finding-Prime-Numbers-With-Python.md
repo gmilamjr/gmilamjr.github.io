@@ -239,7 +239,8 @@ test_primes_finder.py .....                                                     
 
 Now lets take the case someone mistakenly removes the *+1* from the set (number_range).
 
-```rubby
+```ruby
+
 ================================================= test session starts =================================================
 platform win32 -- Python 3.9.1, pytest-7.1.2, pluggy-1.0.0
 rootdir: C:\Projects\mini_projects
@@ -268,6 +269,7 @@ There are 9 prime numbers between 2 and 29, the largest of which is 23
 =============================================== short test summary info ===============================================
 FAILED test_primes_finder.py::test_inclusive_range - assert {2, 3, 5, 7, 11, 13, ...} == {2, 3, 5, 7, 11, 13, ...}
 ============================================ 1 failed, 4 passed in 40.56s =============================================
+
 ```
 
 In the above we can see that our inclusive_range test failed while the other 4 were successful. Furthermore, it clearly lets us know what had happen. In this case, the ground truth list contained an extra item 29 which is expected but the calculated primes were missing this. This is very useful cause we caught now instead of afterwards and anytime something breaks it will know about it.
