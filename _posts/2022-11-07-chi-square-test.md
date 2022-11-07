@@ -265,7 +265,7 @@ We have a Chi-Square Statistic of **1.94** and a p-value of **0.16**.  The criti
 ___
 
 
-# Analysing The Results <a name="chi-square-results"></a>
+# Analyzing The Results <a name="chi-square-results"></a>
 
 From the results above we can see that, since our resulting p-value of **0.16** is *greater* than our Acceptance Criteria of 0.05 then we will _retain_ the Null Hypothesis and conclude that there is no significant difference between the signup rates of Mailer 1 and Mailer 2.
 
