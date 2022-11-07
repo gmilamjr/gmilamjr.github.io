@@ -206,7 +206,8 @@ Another option is to use SortedSet from the [sortedcontainers](https://grantjenk
 The latter option will be faster than the former but still slower than using a non-sorted set.
 
 ---
-###Testing
+
+### Testing
 
 When creating new code it is important to add tests for the new functionality added. This is important as projects get larger as it will help identify if the new code added broke existing functionality. By doing so it will avoid issues that may take a lot of time in debugging.
 
