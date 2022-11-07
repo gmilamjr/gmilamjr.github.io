@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Assessing Campaign Performance Using Chi-Square Test For Independence
-image: "/posts/ab-img.png"
+image: "/posts/ab_img.png"
 tags: [AB Testing, Hypothesis Testing, Chi-Square, Python]
 ---
 
